@@ -1,0 +1,18 @@
+<svg width="150px"  height="150px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-gooey-balls">
+    <defs>
+      <filter id="glue" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
+        <feColorMatrix mode="matrix" values="1 0 0 0 0   0 1 0 0 0   0 0 1 0 0   0 0 0 60 -40" result="cm"></feColorMatrix>
+      </filter>
+    </defs>
+    <g filter="url(#glue)">
+      <circle cx="26.9894" cy="50" r="24.9894" fill="#2c365d">
+        <animate attributeName="r" calcMode="spline" values="18;25;18" keyTimes="0;0.5;1" dur="1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animate>
+        <animate attributeName="cx" calcMode="spline" values="20;27;20" keyTimes="0;0.5;1" dur="1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animate>
+      </circle>
+      <circle cx="72.9894" cy="50" r="18.0106" fill="#45db31">
+        <animate attributeName="r" calcMode="spline" values="25;18;25" keyTimes="0;0.5;1" dur="1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animate>
+        <animate attributeName="cx" calcMode="spline" values="66;73;66" keyTimes="0;0.5;1" dur="1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animate>
+      </circle>
+    </g>
+  </svg>

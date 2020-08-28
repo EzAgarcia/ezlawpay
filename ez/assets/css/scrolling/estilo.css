@@ -1,0 +1,20 @@
+.ir-arriba {
+	display:none;
+	background:#fff;	
+	color:#2c365d;
+	cursor:pointer;
+	position: fixed;
+	padding: 0px;
+	bottom:20px;
+	right:120px;
+	z-index: 1;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border-style: solid;
+	border-color:#2c365d;
+}
+.special{
+	padding: 0px;
+	height: 50px;
+}

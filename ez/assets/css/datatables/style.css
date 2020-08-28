@@ -1,0 +1,94 @@
+table.dataTable thead {
+
+  background-color: #4CAF50 !important;
+
+  color: white !important;
+
+}
+
+table.dataTable tfoot {
+
+  /* background-color: #4CAF50 !important; */
+
+  color: black;
+
+}
+
+table.dataTable tbody tr:hover {
+
+  background-color: rgb(189, 255, 190) !important;
+
+}
+
+table.dataTable tbody tr:hover > .sorting_1 {
+
+  background-color: rgb(189, 255, 190) !important;
+
+}
+
+.odd {
+
+  background-color: #F7F8FF !important;
+
+}
+
+.ccolor{
+
+  color: #00A674 !important;
+
+}
+
+.pagination > li > a, .pagination > li > span {
+
+  color:#70DF71;
+
+}
+
+.pagination > li.active > a, .pagination > li.active > span {
+
+  background-color: #4CAF50 !important;
+
+  border-color: rgb(104, 182, 106) !important
+
+}
+
+.pagination > li.active > a, .pagination > li.active > span {
+
+  background-color: #4CAF50 !important;
+
+  border-color: rgb(104, 182, 106) !important
+
+}
+
+.dataTables_paginate .paginate_button:hover {
+
+  color: #00A674 !important;
+
+  border:0px solid #00A674 !important;
+
+}
+
+.page-link:hover {
+
+  z-index: 2;
+
+  color: white !important;
+
+  text-decoration: none;
+
+  background-color: #d8dadd;
+
+  border-color: #dee2e6;
+
+}
+
+/* .pagination>li>a, .pagination>li>span:hover{
+
+  background-color: #4CAF50 !important;
+
+  border-color: rgb(104, 182, 106) !important;
+
+  color: white;
+
+} */
+
